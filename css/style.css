@@ -1,0 +1,473 @@
+.container.wrapper {
+    max-width: 1194px;
+    padding: 0;
+}
+
+.logo a {
+    font: normal 700 20px/24px 'Montserrat';
+    color: #1D1D1D;
+    text-decoration: none;
+    position: relative;
+}
+
+.logo a:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    bottom: -6px;
+    width: 80px;
+    height: 2px;
+    background: #1BCAF1;
+}
+
+.header-banner h2 {
+    background: linear-gradient(90deg, #001F4D 0%, #154388 55.21%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: normal 700 54px/66px 'Montserrat';
+}
+
+.header-banner h4 {
+    font: normal 300 40px/49px 'Montserrat';
+    color: #1D1D1D;
+}
+
+.schedule-btn {
+    margin-top: 80px;
+}
+
+.schedule-btn a {
+    padding: 15px 0;
+    min-width: 350px;
+    background: #1BCAF1;
+    border-radius: 50px;
+    font: normal 500 20px/24px 'Montserrat';
+    color: #fff;
+    transition: .3s;
+}
+
+.schedule-btn a:hover,
+.schedule-btn a:focus {
+    transform: translate(0px, -10px);
+    box-shadow: 0px 10px 25px 0px rgb(3 169 244 / 31%);
+    background: #1BCAF1;
+    color: #fff;
+}
+
+.ROI-info {
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 43px;
+    left: -50%;
+    padding: 20px 40px 20px 30px;
+}
+
+.ROI-info p {
+    margin: 0;
+}
+
+.ROI-info h3 {
+    font: normal 700 24px/29px 'Montserrat';
+    color: #000000;
+}
+
+.ROI-info .amount {
+    font: normal 700 40px/49px 'Montserrat';
+    color: #1BCAF1;
+    display: block;
+    margin: 13px 0;
+}
+
+.ROI-info p {
+    font: normal 400 20px/24px 'Montserrat';
+    color: #212121;
+}
+
+.sales-container {
+    background: linear-gradient(90deg, #001F4D 0%, #154388 55.21%);
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.sales-container h3 {
+    font: normal 600 48px/59px 'Montserrat';
+}
+
+.sales-container h5 {
+    font: normal 400 16px/20px 'Montserrat';
+}
+
+.sales-container p {
+    font: normal 400 14px/17px 'Montserrat';
+}
+
+.sales-container .border-left {
+    padding-left: 54px;
+    border-left: 1px solid #2866C1;
+}
+
+h4.growth-text {
+    font: normal 700 24px/29px 'Montserrat';
+    position: relative;
+    top: 75px;
+}
+
+h4.growth-text span {
+    background-color: #0BD987;
+    display: inline-block;
+    border-radius: 17px;
+    font: normal 700 14px/17px 'Montserrat';
+    padding: 4px 10px;
+    margin-left: 10px;
+}
+
+.growth-graph {
+    padding: 0 5px;
+}
+
+h5.invest-text {
+    font: normal 700 20px/24px 'Montserrat';
+    text-align: center;
+    margin: 35px 0 10px;
+}
+
+.operate-section {
+    background: #F1FDFF;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.operate-section h3 {
+    font: normal 700 36px/44px 'Montserrat';
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.operate-section p {
+    font: normal 500 16px/24px 'Montserrat';
+    color: #000;
+}
+
+.paid-advertising {
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    margin-left: auto;
+}
+
+.paid-advertising ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paid-advertising li {
+    list-style-type: none;
+    font: normal 400 14px/17px 'Montserrat';
+    color: #3D3D3D;
+    width: 50%;
+    background: url("../assets/images/tick-icon.png") no-repeat center left;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 20px 0 20px 25px;
+}
+
+.paid-advertising li:nth-child(odd) {
+    width: 45%;
+}
+
+.paid-advertising li:nth-child(even) {
+    width: 48%;
+    margin-left: auto;
+}
+
+.paid-advertising h4 {
+    font: normal 700 24px/29px 'Montserrat';
+    color: #000;
+}
+
+.paid-advertising li {
+    font: normal 400 14px/17px 'Montserrat';
+    color: #3D3D3D;
+}
+
+.operate-section .schedule-btn {
+    margin-top: 50px;
+}
+
+.common-style h2 {
+    font: normal 700 36px/44px 'Montserrat';
+    color: #000;
+}
+
+.common-style .light-text {
+    font: normal 400 14px/17px 'Montserrat';
+    color: #3D3D3D;
+}
+
+.leading-brands h2 {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.leading-brands .light-text {
+    display: block;
+    text-align: center;
+    margin: 25px 0 30px;
+}
+
+.leading-brands {
+    padding: 50px 0 30px;
+    background: #F5F5F5;
+}
+
+.leading-brands img {
+    /* width: 100%; */
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.leading-brands img:hover {
+    filter: saturate(10000%);
+    -webkit-transform: scale(1.01);
+}
+
+.leading-brands .row {
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+img.autonomous {
+    width: 181px;
+}
+
+img.cupra {
+    width: 124px;
+}
+
+img.edinburgh {
+    width: 77px;
+}
+
+img.friska {
+    width: 133px;
+}
+
+img.harrison-twins {
+    width: 134px;
+}
+
+img.mad-about-specs {
+    width: 104px;
+}
+
+img.moon-climbing {
+    width: 68px;
+}
+
+img.rolling-square {
+    width: 121px;
+}
+
+img.snapinc {
+    width: 127px;
+}
+
+img.v3-apparel {
+    width: 57px;
+}
+
+img.wix {
+    width: 123px;
+}
+
+img.invideo {
+    width: 140px;
+}
+
+.vision-mission.row {
+    align-items: stretch;
+    margin-top: 120px;
+}
+
+.vision-mission p {
+    font: normal 400 20px/28px 'Montserrat';
+    color: #000;
+    margin: 40px 0 0
+}
+
+.vision-mission img {
+    width: auto;
+    transition: .3s;
+}
+
+.vision-mission img:hover {
+    transform: translate(0px, -10px);
+}
+
+.vision-mission>div {
+    border-radius: 5px;
+    padding: 40px 23px 50px;
+    margin: 0 0 40px 42px;
+    width: 370px;
+}
+
+.vision-mission>div:first-child {
+    margin-left: 0;
+}
+
+.vision-mission>div:first-child p {
+    max-width: 73%;
+    margin: 40px auto 0;
+}
+
+.vision-mission>div:nth-child(4) {
+    margin-left: 0;
+    width: 782px;
+}
+
+.vision-mission .green {
+    background: #BBFEE4;
+}
+
+.vision-mission .lavender {
+    background: #F6EAFE;
+}
+
+.vision-mission .sandal {
+    background: #FFF4E6;
+}
+
+.vision-mission .light-blue {
+    background: #EBF3F9;
+}
+
+.vision-mission .orange {
+    background: #FEE6E6;
+}
+
+.clients-section {
+    padding: 50px 0 100px;
+}
+
+
+.clients-section .row>div {
+    background: #F1FDFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.clients-section .row {
+    margin-top: 35px;
+}
+
+.clients-section .row>div:nth-child(even) {
+    background: #fff;
+}
+
+.clients-section p {
+    font: normal 500 14px/22px 'Montserrat';
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.clients-section span.author {
+    font: normal 700 14px/22px 'Montserrat';
+    color: #000;
+    position: absolute;
+    bottom: 20px;
+}
+
+.schedule-popup .modal-content {
+    padding: 50px;
+}
+
+.schedule-popup .left-column {
+    width: 48%;
+}
+
+.schedule-popup button.btn-close {
+    position: absolute;
+    right: 2.5%;
+    top: 2.5%;
+    opacity: 2;
+    border: 0;
+    box-shadow: none;
+    transition: .3s;
+}
+
+.schedule-popup button.btn-close:hover {
+    transform: rotate(90deg);
+}
+
+.schedule-popup .right-column {
+    margin-left: auto;
+}
+
+.schedule-popup .left-column img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left-column h4 {
+    font: normal 400 18px/28px 'Montserrat';
+    color: #000;
+    margin: 15px 0 0;
+}
+
+.right-column h2 {
+    font: normal 700 38px/50px 'Montserrat';
+    color: #154388;
+    margin: 20px 0;
+}
+
+.right-column h3,
+.right-column h4 {
+    font: normal 500 18px/25px 'Montserrat';
+    color: #000;
+}
+
+.right-column h4 {
+    color: #1BCAF1;
+    font-weight: 700;
+    margin-top: 35px
+}
+
+.right-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-column li {
+    font: normal 500 18px/27px 'Montserrat';
+    color: #000;
+    background: url("../assets/images/popup-tick-icon.png") no-repeat 0 7px / 20px;
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 0 0 0 30px;
+}
+
+.backtotop {
+    position: fixed;
+    right: 2%;
+    bottom: 9%;
+}
+
+.backtotop a {
+    background: #1BCAF1;
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 3px;
+}
+
+.backtotop a i {
+    color: #fff;
+    font-size: 22px;
+}

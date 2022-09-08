@@ -1,0 +1,426 @@
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .pt-4 {
+        padding-top: 0.5rem !important;
+    }
+
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    .container.wrapper {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .header-banner h2 {
+        font: normal 700 25px/35px 'Montserrat';
+    }
+
+    .header-banner h4 {
+        font: normal 300 22px/32px 'Montserrat';
+    }
+
+    .schedule-btn {
+        margin: 20px 0 40px;
+    }
+
+    .operate-section .schedule-btn {
+        margin: 25px 0 30px;
+    }
+
+    .schedule-btn a.btn {
+        min-width: inherit;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .ROI-info {
+        position: static;
+        margin: 30px 0 0;
+        padding: 20px;
+    }
+
+    .ROI-info h3 {
+        font-size: 22px;
+    }
+
+    .ROI-info .amount {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .ROI-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sales-container h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .sales-container {
+        margin-top: 30px;
+    }
+
+    .sales-container .border-left {
+        padding: 10px 10px 0;
+        border: 0;
+    }
+
+    .growth-graph svg {
+        width: 100%;
+    }
+
+    h5.invest-text {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .operate-section {
+        padding: 0 20px 20px;
+        margin-top: 10px;
+    }
+
+    .operate-section h3 {
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    .operate-section p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .paid-advertising li {
+        width: 100% !important;
+    }
+
+    .paid-advertising h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .leading-brands {
+        padding: 20px;
+    }
+
+    .leading-brands h2,
+    .common-style h2 {
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .leading-brands .light-text {
+        margin: 20px 0 0;
+        line-height: 20px;
+    }
+
+    .leading-brands img {
+        margin: 25px 0;
+    }
+
+    .leading-brands .row {
+        margin: 0;
+    }
+
+    .leading-brands .row:first-child {
+        margin-top: 40px;
+    }
+
+    .vision-mission>div {
+        width: 100%;
+        padding: 20px 20px 30px;
+        margin: 0 0 20px;
+    }
+
+    .vision-mission p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .vision-mission img {
+        width: 30%;
+        margin: 5px 0 30px;
+    }
+
+    .vision-mission>div:first-child p {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .clients-section {
+        padding: 0;
+    }
+
+    .schedule-popup .modal-content {
+        padding: 20px;
+    }
+
+    .schedule-popup .left-column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .schedule-popup .left-column img {
+        width: 85%;
+    }
+
+    .schedule-popup button.btn-close {
+        top: 15px;
+    }
+
+    .left-column h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .right-column h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .right-column h3,
+    .right-column h4 {
+        font-size: 14px;
+    }
+
+    .right-column h4 {
+        margin-top: 20px;
+    }
+
+    .right-column li {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 15px 0;
+        background-size: 15px;
+    }
+}
+
+@media screen and (min-width: 567px) and (max-width:767px) {
+    .ROI-info {
+        position: absolute;
+        bottom: 15px;
+        left: -20px;
+    }
+
+    .sales-container .justify-content-end {
+        justify-content: flex-start !important;
+    }
+
+    .paid-advertising li {
+        width: 50% !important;
+    }
+
+    .vision-mission>div,
+    .vision-mission>div:nth-child(4) {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .clients-section .row>div {
+        background: #fff;
+    }
+
+    .clients-section .row>div:nth-child(2),
+    .clients-section .row>div:nth-child(3) {
+        background: #F1FDFF;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container {
+        padding: 0;
+    }
+
+    .pt-4 {
+        padding-top: 0.5rem !important;
+    }
+
+    .container.wrapper {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .growth-graph svg {
+        width: 100%;
+    }
+
+    .header-banner h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .header-banner h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .ROI-info .amount {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .ROI-info p {
+        font-size: 15px;
+    }
+
+    .schedule-btn {
+        margin-top: 40px;
+    }
+
+    .schedule-btn a {
+        min-width: inherit;
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+
+    .ROI-info {
+        bottom: 30px;
+    }
+
+    .sales-container h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sales-container {
+        padding: 20px;
+    }
+
+    .sales-container .border-left {
+        padding-left: 20px;
+    }
+
+    .sales-container h5 {
+        font-size: 14px;
+    }
+
+    .sales-container h5 {
+        margin: 0;
+    }
+
+    .operate-section {
+        padding: 10px 15px 20px 5px;
+    }
+
+    .operate-section h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .paid-advertising li {
+        width: 100% !important;
+    }
+
+    .operate-section .schedule-btn {
+        margin-top: 20px;
+    }
+
+    .leading-brands {
+        padding: 20px 0;
+    }
+
+    .leading-brands h2,
+    .common-style h2 {
+        max-width: 70%;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .leading-brands .row>div {
+        margin: 20px 0;
+    }
+
+    .leading-brands .row {
+        margin: 0;
+    }
+
+    .vision-mission>div {
+        width: 33%;
+    }
+
+    .vision-mission img {
+        width: 25%;
+    }
+
+    .vision-mission p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 35px 0 0;
+    }
+
+    .vision-mission>div:first-child p {
+        max-width: 100%;
+        margin: 25px 0 0;
+    }
+
+    .vision-mission>div:nth-child(4) {
+        width: 66%;
+    }
+
+    .vision-mission.row>div {
+        margin: 0;
+    }
+
+    .vision-mission.row {
+        margin-top: 30px;
+    }
+
+    .vision-mission>div:nth-child(4) img {
+        width: 12%;
+    }
+
+    .clients-section {
+        padding: 20px;
+    }
+
+    .schedule-popup .modal-content {
+        padding: 30px;
+    }
+
+    .schedule-popup .left-column img {
+        width: 90%;
+    }
+
+    .schedule-popup .left-column {
+        width: 50%;
+    }
+
+    .left-column h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .schedule-popup .right-column {
+        margin-left: inherit;
+    }
+
+    .schedule-popup .right-column img {
+        width: 95%;
+    }
+
+    .right-column h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .right-column h3,
+    .right-column h4 {
+        font-size: 15px;
+    }
+
+    .right-column h4 {
+        margin-top: 20px;
+    }
+
+    .right-column li {
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 22px;
+        background-size: 15px;
+        padding: 0 0 0 25px;
+    }
+}
