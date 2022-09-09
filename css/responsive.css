@@ -13,19 +13,28 @@
     }
 
     .header-banner h2 {
-        font: normal 700 25px/35px 'Montserrat';
+        font: normal 700 20px/32px 'Montserrat';
     }
 
     .header-banner h4 {
-        font: normal 300 22px/32px 'Montserrat';
+        font: normal 300 15px/25px 'Montserrat';
+        max-width: 100%;
     }
 
     .schedule-btn {
         margin: 20px 0 40px;
     }
 
-    .operate-section .schedule-btn {
-        margin: 25px 0 30px;
+    .zigzag-section .schedule-btn {
+        margin: 25px 0 10px;
+    }
+
+    .zigzag-section .row:last-child {
+        margin-top: 50px;
+    }
+
+    .zigzag-section .row:nth-child(2) div:last-child {
+        margin-top: 30px;
     }
 
     .schedule-btn a.btn {
@@ -61,6 +70,7 @@
 
     .sales-container {
         margin-top: 30px;
+        padding: 15px;
     }
 
     .sales-container .border-left {
@@ -77,28 +87,24 @@
         margin: 0;
     }
 
-    .operate-section {
-        padding: 0 20px 20px;
-        margin-top: 10px;
+    .zigzag-section {
+        padding: 15px 20px 20px;
+        margin-top: 15px;
     }
 
-    .operate-section h3 {
+    .zigzag-section .row {
+        margin-bottom: 0;
+    }
+
+    .zigzag-section h3 {
         font-size: 23px;
-        line-height: 20px;
+        line-height: 30px;
+        margin-top: 25px;
     }
 
-    .operate-section p {
+    .zigzag-section p {
         font-size: 15px;
         line-height: 22px;
-    }
-
-    .paid-advertising li {
-        width: 100% !important;
-    }
-
-    .paid-advertising h4 {
-        font-size: 20px;
-        line-height: 25px;
     }
 
     .leading-brands {
@@ -151,10 +157,6 @@
         margin: 0;
     }
 
-    .clients-section {
-        padding: 0;
-    }
-
     .schedule-popup .modal-content {
         padding: 20px;
     }
@@ -170,6 +172,36 @@
 
     .schedule-popup button.btn-close {
         top: 15px;
+    }
+
+    .free-audit-section {
+        padding: 0;
+    }
+
+    .free-audit-section h2 {
+        padding: 20px 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .free-audit-section .row>div {
+        padding: 20px;
+    }
+
+    .free-audit-section h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .free-audit-section p {
+        font-size: 15px;
+    }
+
+    .wheredoget li {
+        font-size: 15px;
+        margin: 20px 0;
+        line-height: 22px;
     }
 
     .left-column h4 {
@@ -210,24 +242,12 @@
         justify-content: flex-start !important;
     }
 
-    .paid-advertising li {
-        width: 50% !important;
-    }
-
     .vision-mission>div,
     .vision-mission>div:nth-child(4) {
         width: 50%;
         margin-bottom: 0;
     }
 
-    .clients-section .row>div {
-        background: #fff;
-    }
-
-    .clients-section .row>div:nth-child(2),
-    .clients-section .row>div:nth-child(3) {
-        background: #F1FDFF;
-    }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -302,20 +322,16 @@
         margin: 0;
     }
 
-    .operate-section {
+    .zigzag-section {
         padding: 10px 15px 20px 5px;
     }
 
-    .operate-section h3 {
+    .zigzag-section h3 {
         font-size: 28px;
         line-height: 28px;
     }
 
-    .paid-advertising li {
-        width: 100% !important;
-    }
-
-    .operate-section .schedule-btn {
+    .zigzag-section .schedule-btn {
         margin-top: 20px;
     }
 
@@ -371,10 +387,6 @@
 
     .vision-mission>div:nth-child(4) img {
         width: 12%;
-    }
-
-    .clients-section {
-        padding: 20px;
     }
 
     .schedule-popup .modal-content {
