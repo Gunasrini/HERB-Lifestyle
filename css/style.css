@@ -221,15 +221,6 @@ h5.invest-text {
     background: #F5F5F5;
 }
 
-.leading-brands img {
-    /* width: 100%; */
-    -webkit-transition: all .3s ease-in-out;
-}
-
-.leading-brands img:hover {
-    filter: saturate(10000%);
-    -webkit-transform: scale(1.01);
-}
 
 .leading-brands .row {
     align-items: center;
@@ -237,52 +228,15 @@ h5.invest-text {
     margin: 50px 0;
 }
 
-img.autonomous {
-    width: 181px;
+.leading-brands img {
+    width: 80%;
+    filter: grayscale(1);
+    -webkit-transition: all .3s ease-in-out;
 }
 
-img.cupra {
-    width: 124px;
-}
-
-img.edinburgh {
-    width: 77px;
-}
-
-img.friska {
-    width: 133px;
-}
-
-img.harrison-twins {
-    width: 134px;
-}
-
-img.mad-about-specs {
-    width: 104px;
-}
-
-img.moon-climbing {
-    width: 68px;
-}
-
-img.rolling-square {
-    width: 121px;
-}
-
-img.snapinc {
-    width: 127px;
-}
-
-img.v3-apparel {
-    width: 57px;
-}
-
-img.wix {
-    width: 123px;
-}
-
-img.invideo {
-    width: 140px;
+.leading-brands img:hover {
+    filter: grayscale(0);
+    -webkit-transform: scale(1.2);
 }
 
 .vision-mission.row {
